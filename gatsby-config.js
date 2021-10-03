@@ -4,6 +4,7 @@ module.exports = {
     title: "AtTheBoothBakery",
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-google-analytics",
