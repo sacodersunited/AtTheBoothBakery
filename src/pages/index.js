@@ -12,15 +12,6 @@ const IndexPage = () => {
       website to get more information and order today!"
         keywords={[`Baked goods`, `cookies`, `cakes`, `bread`, `san antonio`]}
       />
-      <Container>
-        <div class=" bg-white rounded-xl shadow-md flex items-center space-x-4">
-          <div class="flex-shrink-0"></div>
-          <div>
-            <div class="text-xl font-medium text-black">ChitChat</div>
-            <p class="text-gray-500">You have a new message!</p>
-          </div>
-        </div>
-      </Container>
     </Layout>
   )
 }
