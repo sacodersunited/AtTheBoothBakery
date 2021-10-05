@@ -13,11 +13,11 @@ export default function Header() {
             width={160}
             layout="fixed"
             alt="At the Booth Bakery logo"
-            quality="100"
+            quality={100}
           />
         </Link>
       </div>
-      <div className=" flex bg-gray-100 p-5 justify-center shadow-md">
+      <div className="flex flex-wrap bg-gray-100 p-5 justify-center shadow-md">
         <ul className="flex space-x-20 text-gray-700">
           <Link to="/">
             <NavLink>Home</NavLink>
