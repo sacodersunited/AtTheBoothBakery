@@ -2,8 +2,9 @@ import * as React from 'react'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
 import Container from '../components/Container'
+import Hero from '../components/Hero'
 
-const IndexPage = () => {
+export default function IndexPage() {
   return (
     <Layout>
       <Seo
@@ -12,8 +13,9 @@ const IndexPage = () => {
       website to get more information and order today!"
         keywords={[`Baked goods`, `cookies`, `cakes`, `bread`, `san antonio`]}
       />
+      <Container>
+        <Hero />
+      </Container>
     </Layout>
   )
 }
-
-export default IndexPage
