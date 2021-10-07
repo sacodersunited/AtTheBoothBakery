@@ -6,7 +6,7 @@ export default function Hero() {
     <div class="grid grid-cols-2 py-10 sm:max-w-screen-md sm:mx-auto">
       <div className="flex items-center">
         <div className="pl-5 border-l-4 space-y-5 border-brand-darkPurple text-4xl text-gray-600">
-          <p>Welcome to our bakery</p>
+          <h2>Welcome to our bakery</h2>
           <p>All desserts are made fresh to order</p>
         </div>
       </div>
