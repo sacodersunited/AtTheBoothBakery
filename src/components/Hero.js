@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="grid grid-cols-2 py-10 sm:max-w-screen-md sm:mx-auto">
       <div className="flex items-center">
-        <div className="pl-5 border-l-4 space-y-5 border-brand-darkPurple text-4xl text-gray-600">
+        <div className="pl-5 border-l-4 space-y-2 border-brand-darkPurple text-4xl text-gray-600 font-thin">
           <h2>Welcome to our bakery</h2>
           <p>All desserts are made fresh to order</p>
         </div>
@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="flex flex-col items-center">
         <StaticImage
           src="../images/baker.jpeg"
-          width={249}
+          width={200}
           layout="fixed"
           className="rounded-full"
           quality={90}
