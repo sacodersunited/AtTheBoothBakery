@@ -42,9 +42,9 @@ const StoryLeftContent = () => (
 
 const StoryRightContent = () => (
   <StaticImage
-    className="rounded-md"
+    className="rounded-lg"
     src="../images/sunrise.jpeg"
-    width={400}
+    width={340}
     layout="constrained"
     alt="sunrise"
   />
