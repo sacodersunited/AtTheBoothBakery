@@ -19,14 +19,13 @@ export default function IndexPage() {
         <Hero />
         <TwoCols left={<StoryLeftContent />} right={<StoryRightContent />} />
       </Container>
-      
     </Layout>
   )
 }
 
 const StoryLeftContent = () => (
   <div className="space-y-5">
-    <h2 className="uppercase text-2xl">Our Story</h2>
+    <h2 className="uppercase text-2xl text-gray-600">Our Story</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora est
       earum veritatis libero quaerat, dolore dolores quae omnis, sint ipsam,
@@ -43,11 +42,10 @@ const StoryLeftContent = () => (
 
 const StoryRightContent = () => (
   <StaticImage
-    className="rounded-md"
+    className="rounded-lg"
     src="../images/sunrise.jpeg"
-    width={400}
+    width={340}
     layout="constrained"
+    alt="sunrise"
   />
 )
-
-
