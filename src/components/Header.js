@@ -18,7 +18,7 @@ export default function Header() {
         </Link>
       </div>
       <div className="flex flex-wrap bg-gray-100 p-5 justify-center shadow-md">
-        <ul className="flex space-x-20 text-gray-700">
+        <ul className="flex space-x-5 md:space-x-20 text-gray-700">
           <Link to="/">
             <NavLink>Home</NavLink>
           </Link>
