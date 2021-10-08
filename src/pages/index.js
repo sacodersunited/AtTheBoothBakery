@@ -25,7 +25,7 @@ export default function IndexPage() {
 
 const StoryLeftContent = () => (
   <div className="space-y-5">
-    <h2 className="uppercase text-2xl">Our Story</h2>
+    <h2 className="uppercase text-2xl text-gray-600">Our Story</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora est
       earum veritatis libero quaerat, dolore dolores quae omnis, sint ipsam,

@@ -15,7 +15,7 @@ export default function desserts() {
       />
       <Container>
         <div className="py-10">
-          <h2 className="font-light uppercase text-3xl tracking-tighter">
+          <h2 className="font-light uppercase text-3xl tracking-tighter text-gray-700">
             Dessert Collections
           </h2>
           <div className="flex items-center space-x-5 text-gray-50 mt-2">

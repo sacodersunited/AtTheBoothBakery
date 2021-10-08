@@ -14,7 +14,7 @@ export default function Form() {
 
 const FormLeftContent = () => (
   <div className="space-y-5">
-    <h2 className="uppercase text-2xl">Contact Us</h2>
+    <h2 className="uppercase text-2xl text-gray-600">Contact Us</h2>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora est
       earum veritatis libero quaerat, dolore dolores quae omnis, sint ipsam,
@@ -25,6 +25,6 @@ const FormLeftContent = () => (
 
 const FormRightContent = () => (
   <div className="space-y-5">
-    <h2 className="uppercase text-2xl">Form Goes Here</h2>
+    <h2 className="uppercase text-2xl text-gray-600">Form Goes Here</h2>
   </div>
 )
