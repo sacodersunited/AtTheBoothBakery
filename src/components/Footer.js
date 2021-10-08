@@ -36,11 +36,11 @@ export default function Footer() {
       <div className="bg-brand-darkPurple text-gray-200">
         <Container>
           <div className="flex justify-end py-5 space-x-10">
-            <a href="">
-              <FaFacebook className="w-7 h-7 hover:text-brand-pink" />
+            <a href="https://facebook.com">
+              <FaFacebook className="w-5 h-5 hover:text-brand-pink" />
             </a>
-            <a href="">
-              <FaInstagramSquare className="w-7 h-7 hover:text-brand-pink" />
+            <a href="https://instagram.com">
+              <FaInstagramSquare className="w-5 h-5 hover:text-brand-pink" />
             </a>
           </div>
         </Container>

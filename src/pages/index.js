@@ -19,7 +19,6 @@ export default function IndexPage() {
         <Hero />
         <TwoCols left={<StoryLeftContent />} right={<StoryRightContent />} />
       </Container>
-      
     </Layout>
   )
 }
@@ -47,7 +46,6 @@ const StoryRightContent = () => (
     src="../images/sunrise.jpeg"
     width={400}
     layout="constrained"
+    alt="sunrise"
   />
 )
-
-

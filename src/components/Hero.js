@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 export default function Hero() {
   return (
-    <div class="grid grid-cols-2 py-10 sm:max-w-screen-md sm:mx-auto">
+    <div className="grid grid-cols-2 py-10 sm:max-w-screen-md sm:mx-auto">
       <div className="flex items-center">
         <div className="pl-5 border-l-4 space-y-5 border-brand-darkPurple text-4xl text-gray-600">
           <h2>Welcome to our bakery</h2>
@@ -17,6 +17,7 @@ export default function Hero() {
           layout="fixed"
           className="rounded-full"
           quality={90}
+          alt="baker"
         />
         <p className="uppercase mt-2 text-gray-500">
           Jan Smith | <span className="italic normal-case">Chief Baker</span>
