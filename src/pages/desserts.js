@@ -8,7 +8,7 @@ export default function desserts() {
   return (
     <Layout>
       <Seo
-        title="At the Booth Bakery"
+        title="Dessert Collections"
         description="At The Booth Bakery offers the best baked goods in San Antonio. Visit our
       website to get more information and order today!"
         keywords={[`Baked goods`, `cookies`, `cakes`, `bread`, `san antonio`]}
@@ -25,7 +25,24 @@ export default function desserts() {
           </div>
         </div>
       </Container>
-      <CategoryGrid />
+      <CategoryGrid category="Cookies" bgColor="bg-brand-yellow">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quam
+        ipsum corporis dolor perspiciatis necessitatibus, ex perferendis sint
+        aliquid natus fugiat nulla laborum ipsa dolorem eum cumque inventore,
+        ratione iure.
+      </CategoryGrid>
+      <CategoryGrid category="Cakes" bgColor="bg-brand-pink">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quam
+        ipsum corporis dolor perspiciatis necessitatibus, ex perferendis sint
+        aliquid natus fugiat nulla laborum ipsa dolorem eum cumque inventore,
+        ratione iure.
+      </CategoryGrid>
+      <CategoryGrid category="Bread" bgColor="bg-brand-green">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quam
+        ipsum corporis dolor perspiciatis necessitatibus, ex perferendis sint
+        aliquid natus fugiat nulla laborum ipsa dolorem eum cumque inventore,
+        ratione iure.
+      </CategoryGrid>
     </Layout>
   )
 }
