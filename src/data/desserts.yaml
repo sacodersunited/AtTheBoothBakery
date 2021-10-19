@@ -1,0 +1,19 @@
+# categories are cookie, bread, and cake
+- chocCookies:
+  title: Chocolate Chip
+  category: cookie
+  price: 15
+  description: A chocolate chip cookie.
+  image: dessertImages/cookie.jpg
+- bananaBread:
+  title: Banana Bread
+  category: bread
+  price: 20
+  description: Banana bread made from scratch.
+  image: dessertImages/banana-bread.jpg
+- strawberryCake:
+  title: Strawberry Cake
+  category: cake
+  price: 35
+  description: Strawberry Shortcake made to order with the finest ingredients.
+  image: dessertImages/cake.jpg

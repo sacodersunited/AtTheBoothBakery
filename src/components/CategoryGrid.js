@@ -2,7 +2,12 @@ import Container from './Container'
 import React from 'react'
 import ProductCard from './ProductCard'
 
-export default function CategoryGrid({ category, bgColor, children }) {
+export default function CategoryGrid({
+  category,
+  bgColor,
+  products,
+  children,
+}) {
   return (
     <section className={`pt-10 pb-10 md:pb-20 ${bgColor} text-gray-100`}>
       <Container>
@@ -12,9 +17,9 @@ export default function CategoryGrid({ category, bgColor, children }) {
         </div>
       </Container>
       <div className="grid grid-col-1 md:grid-cols-3 md:gap-4">
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {products
+          ? products.map((product) => <ProductCard {...product} />)
+          : null}
       </div>
     </section>
   )

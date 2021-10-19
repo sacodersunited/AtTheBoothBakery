@@ -3,8 +3,15 @@ import CategoryGrid from '../components/CategoryGrid'
 import Container from '../components/Container'
 import Layout from '../components/Layout'
 import Seo from '../components/Seo'
+import UseCookiesYaml from '../hooks/use-cookies-yaml'
+import UseCakesYaml from '../hooks/use-cakes-yaml'
+import UseBreadsYaml from '../hooks/use-breads-yaml'
 
 export default function desserts() {
+  const cookies = UseCookiesYaml()
+  const cakes = UseCakesYaml()
+  const breads = UseBreadsYaml()
+
   return (
     <Layout>
       <Seo
@@ -25,19 +32,27 @@ export default function desserts() {
           </div>
         </div>
       </Container>
-      <CategoryGrid category="Cookies" bgColor="bg-brand-yellow">
+      <CategoryGrid
+        category="Cookies"
+        bgColor="bg-brand-yellow"
+        products={cookies}
+      >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quam
         ipsum corporis dolor perspiciatis necessitatibus, ex perferendis sint
         aliquid natus fugiat nulla laborum ipsa dolorem eum cumque inventore,
         ratione iure.
       </CategoryGrid>
-      <CategoryGrid category="Cakes" bgColor="bg-brand-pink">
+      <CategoryGrid category="Cakes" bgColor="bg-brand-pink" products={cakes}>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quam
         ipsum corporis dolor perspiciatis necessitatibus, ex perferendis sint
         aliquid natus fugiat nulla laborum ipsa dolorem eum cumque inventore,
         ratione iure.
       </CategoryGrid>
-      <CategoryGrid category="Bread" bgColor="bg-brand-green">
+      <CategoryGrid
+        category="Breads"
+        bgColor="bg-brand-green"
+        products={breads}
+      >
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, quam
         ipsum corporis dolor perspiciatis necessitatibus, ex perferendis sint
         aliquid natus fugiat nulla laborum ipsa dolorem eum cumque inventore,
