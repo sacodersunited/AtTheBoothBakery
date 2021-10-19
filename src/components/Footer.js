@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagramSquare } from 'react-icons/fa'
 export default function Footer() {
   return (
     <footer>
-      <div className=" bg-brand-lightPurple text-gray-200 p-12 border-b-4 border-brand-pink text-sm">
+      <div className=" bg-brand-lightPurple text-gray-200 p-12 border-b-2 border-brand-pink text-sm">
         <Container>
           <div className="flex justify-end space-x-5 md:space-x-20">
             <div className="flex flex-col">
@@ -37,7 +37,7 @@ export default function Footer() {
         <Container>
           <div className="flex justify-between py-5">
             <a
-              className="hover:text-brand-pink"
+              className="hover:text-brand-pink text-gray-300"
               href="https://sacodersunited.com"
             >
               @sacodersunited

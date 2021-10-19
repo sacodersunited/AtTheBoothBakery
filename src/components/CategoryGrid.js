@@ -8,7 +8,7 @@ export default function CategoryGrid({ category, bgColor, children }) {
       <Container>
         <div className="md:w-1/2">
           <h2 className="uppercase text-2xl">{category}</h2>
-          <p className="mt-2 mb-4">{children}</p>
+          <p className="mt-2 mb-10">{children}</p>
         </div>
       </Container>
       <div className="grid grid-col-1 md:grid-cols-3 md:gap-4">
