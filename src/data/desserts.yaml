@@ -1,0 +1,55 @@
+# categories are cookie, bread, and cake
+- chocCookies:
+  title: Chocolate Chip
+  category: cookie
+  price: 15
+  description: A chocolate chip cookie. A simple classic.
+  image: dessertImages/cookie.jpg
+- lemonCookies:
+  title: Lemon Chocolate Chip
+  category: cookie
+  price: 21
+  description: A chocolate chip cookie with lemon custard filling.
+  image: dessertImages/lemon-cookie.jpg
+- lemonCookies:
+  title: Double Fudge Chocolate Chip
+  category: cookie
+  price: 16
+  description: A chocolate chip cookie made with fudge. Extra chocolatey!
+  image: dessertImages/fudge-cookie.jpg
+- bananaBread:
+  title: Banana Bread
+  category: bread
+  price: 20
+  description: Banana bread made from scratch.
+  image: dessertImages/banana-bread.jpg
+- raisinBread:
+  title: Raisin Bread
+  category: bread
+  price: 20
+  description: Raisin bread made from scratch.
+  image: dessertImages/raisin-bread.jpg
+- sourdoughBread:
+  title: Sourdough Bread
+  category: bread
+  price: 20
+  description: Sourdough bread made from scratch. Left to distill over 3 nights. Baked to perfection.
+  image: dessertImages/sourdough-bread.jpg
+- classicSourdoughBread:
+  title: Classic Sourdough Bread
+  category: bread
+  price: 29
+  description: Sourdough bread made from scratch. Left to distill over 2 weeks. Baked to perfection.
+  image: dessertImages/sourdough-bread.jpg
+- strawberryCake:
+  title: Strawberry Cake
+  category: cake
+  price: 35
+  description: Strawberry Shortcake made to order with the finest ingredients.
+  image: dessertImages/cake.jpg
+- chocolateCake:
+  title: Chocolate Cake
+  category: cake
+  price: 25
+  description: Chocolate cake made to order with the finest ingredients.
+  image: dessertImages/chocolate-cake.jpg
