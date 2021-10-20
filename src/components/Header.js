@@ -9,7 +9,7 @@ export default function Header() {
       <div className="grid place-items-center bg-gray-100">
         <Link to="/">
           <StaticImage
-            src="../images/logo.png"
+            src="../images/At The Booth Logo Transparent Final no Tag.png"
             width={160}
             layout="fixed"
             alt="At the Booth Bakery logo"
