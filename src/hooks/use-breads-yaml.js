@@ -14,7 +14,7 @@ export default function UseBreadsYaml() {
               description
               image {
                 childImageSharp {
-                  gatsbyImageData(width: 800, placeholder: BLURRED)
+                  gatsbyImageData(width: 600, height: 800, placeholder: BLURRED)
                 }
               }
             }

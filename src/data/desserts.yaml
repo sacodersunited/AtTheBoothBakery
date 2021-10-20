@@ -17,3 +17,9 @@
   price: 35
   description: Strawberry Shortcake made to order with the finest ingredients.
   image: dessertImages/cake.jpg
+- chocolateCake:
+  title: Chocolate Cake
+  category: cake
+  price: 25
+  description: Chocolate cake made to order with the finest ingredients.
+  image: dessertImages/chocolate-cake.jpg
