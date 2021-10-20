@@ -3,9 +3,9 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 export default function ProductCard(product) {
   return (
-    <div className="flex-grow relative">
+    <div className="w-full relative ">
       <GatsbyImage image={product.image} alt={product.title} />
-      <div className=" w-full absolute bg-gray-50 text-gray-600 bottom-0 md:bottom-5 p-4">
+      <div className=" absolute bg-gray-50 text-gray-600 bottom-0 md:bottom-5 p-4">
         <div className="flex items-center justify-between">
           <h3 className="text-brand-pink uppercase font-bold">
             {product.title}

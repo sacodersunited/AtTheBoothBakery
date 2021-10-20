@@ -17,9 +17,11 @@ export default function CategoryGrid({
         </div>
       </Container>
       <div className="grid grid-col-1 md:grid-cols-3 md:gap-4">
-        {products
-          ? products.map((product) => <ProductCard {...product} />)
-          : null}
+        {products ? (
+          products.map((product) => <ProductCard {...product} />)
+        ) : (
+          <p>No products, please check back soon.</p>
+        )}
       </div>
     </section>
   )
